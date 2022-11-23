@@ -7,18 +7,15 @@
     <title>My Portfolio Website </title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- unicon -->
+    <!-- icon -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!--  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
-    <!-- thanh menu -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
     <!-- icon site  -->
-    <link rel="icon" size="180x180" type="main.css" href="icon2.png">
+    <link rel="icon" size="180x180" type="style.css" href="img/icon2.png">
     <!-- background color -->
     <style>
         body {
@@ -28,28 +25,29 @@
 </head>
 
 <body>
-    <!--------header---->
+<!--==================== HEADER ====================-->
     <header>
-        <a href="#" class="logo"><img src="icon2.png"></a>
+        <a href="#" class="logo"><img src="img/icon2.png"></a>
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <ul class="navlist">
             <li><a href="#home"><i class="uil uil-estate nav__icon"></i>Home</a></li>
-            <li><a href="#about"> <i class="uil uil-user nav__icon"></i>About</a></li>
+            <li><a href="#about"> <i class="uil uil-user nav__icon"></i>About</a> </li>
             <li><a href="#portfolio"><i class="uil uil-scenery nav__icon"></i> Portfolio</a></li>
             <li><a href="#service"> <i class="uil uil-briefcase-alt nav__icon"></i>Service</a></li>
             <li><a href="#contact"><i class="uil uil-message nav__icon"></i> Contact</a></li>
         </ul>
-        <a href="mycv.png" class="top-btn" target="_blank" download="CV">Download CV <i class="uil uil-download-alt button__icon"></i></a>
-        
+        <a href="img/mycv.png" class="top-btn" target="_blank" download="CV">Download CV <i
+                class="uil uil-download-alt button__icon"></i></a>
+
     </header>
 
-    <!--------home---->
+<!--====================HOME====================-->
     <section class="home" id="home">
         <div class="home-text">
-            <h3>Hello, I'm</h3>
+            <h3>Hello, My name is</h3>
             <h1>My</h1>
-            <h5>A Web Developer <span>From Ha Noi</span></h5>
+            <h5> I'm a <span class="typing">Web Developer</span></h5>
             <p>Welcome to my portfolio! <br>I'm creative website based in Ha Noi, and I'm very passionate <br> and
                 dedicated to my work.</p>
             <!-- icon social -->
@@ -62,24 +60,79 @@
                     <i class="uil uil-facebook-f"></i>
                 </a>
 
-                <a href="https://github.com/">
-                    <i class="uil uil-github-alt" target="_blank"></i>
+                <a href="https://github.com/" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.youtube.com/@lofi9260" target="_blank">
+                    <i class="uil uil-youtube"></i>
                 </a>
             </div>
+            <a href="#contact" class="button2">Contact me</a> <br><br>
             <a href="#about" class="button">View more</a>
         </div>
-
         <div class="home-img">
-            <img src="anh1.png">
+            <img src="img/imghome2.png">
         </div>
     </section>
 
-    <!--------sub service---->
+<!--==================== about ====================-->
+    <section class="about" id="about">
+        <figure>
+            <div class="about-img">
+                <img src="img/anh3.png">
+                <figcaption>
+                    Tran Thi My - 20 years old
+                </figcaption>
+            </div>
+        </figure>
+
+        <div class="about-text">
+            <h3>My name is My & I am a web developer</h3>
+            <h2>I Can Develop Anything You Want</h2>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Age</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Gender</td>
+                    <td>Female</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Country</td>
+                    <td>Vietnam</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Language</td>
+                    <td>Vietnamese, English,<br> Korean, Chinese</td>
+                  </tr>
+                </tbody>
+              </table><br>
+              <a href="#qualification" class="button">Qualification</a>
+              <a href="#skills" class="button">Skills</a>
+
+        </div>
+    </section>
+
+    <!--==================== Sub services ====================-->
     <section class="sub-service">
         <div class="items">
             <div class="sub-box">
                 <div class="sub-img">
-                    <img src="m1.jpg">
+                    <img src="img/m1.jpg">
                 </div>
                 <h3>Pixel Perfect</h3>
                 <p>Dy-na-na-na, na-na, na-na-na, na-na-na, life is dynamite
@@ -89,7 +142,7 @@
 
             <div class="sub-box">
                 <div class="sub-img">
-                    <img src="m2.jpg">
+                    <img src="img/m2.jpg">
                 </div>
                 <h3>High Quality</h3>
                 <p>Dy-na-na-na, na-na, na-na, ayy
@@ -100,7 +153,7 @@
 
             <div class="sub-box">
                 <div class="sub-img">
-                    <img src="m3.jpg">
+                    <img src="img/m3.jpg">
                 </div>
                 <h3>Awesome Idea</h3>
                 <p>Dy-na-na-na, na-na, na-na, ayy
@@ -111,109 +164,155 @@
 
         </div>
     </section>
-
-    <!--------About---->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="anh3.jpg">
-        </div>
-
-        <div class="about-text">
-            <h3>I'm a Developer</h3>
-            <h2>I Can Develop Anything You Want</h2>
-            <p>Hello there! I'm a web developer, and I'm very passionate and dedicated to my work. With 20 years
-                experience as a professional web developer, I have acquired the skills and knowledge necessary to make
-                your project a success. I enjoy every step of the develop process, from discussion and collaboration.
-            </p>
-            <a href="https://gmail.com" class="button" target="_blank">Hire Me</a>
-        </div>
-    </section>
+<!--==================== QUALIFICATION ====================-->
+<section class="heading" id="qualification">
+    <h3>Qualification</h3>
+    <p >My personal journey in education and work.</p><br>
 
 
-    <!--------portfolio---->
-    <section class="portfolio" id="portfolio">
-        <div class="heading">
-            <h3>Portfolio</h3>
-            <h2>My Amazing Work</h2>
-            <p>Most common methods for create websites that work well on desktop is <br> responsive and adaptive develop
-            </p>
-        </div>
 
-        <div class="portfolio-content">
-            <div class="col">
-                <a href="https://github.com/" target="_blank">
-                    <img src="w1.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
+        <div class="qualification__sections">
+            <!--==================== QUALIFICATION Content  1====================-->
+            <div class="qualification__content " >
+                <!--==================== QUALIFICATION  1.1====================-->
+                <div class="qualification__data">
+                    <div>
+
+                        <h3 class="qualification__title">1.Elementary School</h3>
+                        <p class="qualification__subtitle">Bình Nghĩa Elementary School </p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2009-2013
+                        </div>
                     </div>
-                </a>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION  1.2====================-->
+                <div class="qualification__data">
+                    <div></div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="qualification__title">2.Secondary School</h3>
+                        <p class="qualification__subtitle">Bình Nghĩa Secondary School </p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2013-2017
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--==================== QUALIFICATION  1.3====================-->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">3.Highschool</h3>
+                        <p class="qualification__subtitle">Bình Lục Highschool</p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2017-2020
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION  1.4====================-->
+                <div class="qualification__data">
+                    <div></div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="qualification__title">4.Multimedia</h3>
+                        <p class="qualification__subtitle">Phương Đông University</p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2020-2024
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="col">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="w2.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
+            <!--==================== QUALIFICATION Content  2====================-->
+            <div class="qualification__content" data-content="work">
+                <!--==================== QUALIFICATION  2.1====================-->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">5.Software Enginner</h3>
+                        <p class="qualification__subtitle">Google - Singapore</p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2020-2021
+                        </div>
                     </div>
-                </a>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION  2.2====================-->
+                <div class="qualification__data">
+                    <div></div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="qualification__title">6.Frontend Developer</h3>
+                        <p class="qualification__subtitle">Apple Inc - Thailand</p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2020-2021
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--==================== QUALIFICATION  2.3====================-->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">7.UI Designer</h3>
+                        <span class="qualification__subtitle">Adobe - Australia</p>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calendar-alt"></i>
+                            2021-2022
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        
+                    </div>
+                </div>
+
             </div>
 
-            <div class="col">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="w4.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col">
-                <a href="https://www.tumblr.com/" target="_blank">
-                    <img src="w3.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col">
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="w6.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col">
-                <a href="https://www.pinterest.com/" target="_blank">
-                    <img src="w5.jpg">
-                    <div class="layer">
-                        <h3>Web Design</h3>
-                        <h5>Popup</h5>
-                    </div>
-                </a>
-            </div>
         </div>
-    </section>
 
-    <section class="portfolio" id="portfolio">
-        <div class="heading">
-            <h3>More about project in my youtube chanel.</h3>
-            <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank">
-                <h2 class="ytb">Let's see!</h2>
-            </a>
-        </div>
-        <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/aqW4xXUgmno" title="YouTube video"
-                allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-    </section>
+</section>
+
 
     <!--==================== SKILLS ====================-->
 
@@ -397,6 +496,93 @@
     </section>
 
 
+    <!--------portfolio---->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h3>Portfolio</h3>
+            <h2>My Amazing Work</h2>
+            <p>Most common methods for create websites that work well on desktop is <br> responsive and adaptive develop
+            </p>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="col">
+                <a href="https://github.com/" target="_blank">
+                    <img src="img/w1.jpg">
+                    <div class="layer">
+                        <h3>Photography</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/w2.jpg">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/w4.jpg">
+                    <div class="layer">
+                        <h3>Web develop</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.tumblr.com/" target="_blank">
+                    <img src="img/w3.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="img/w6.jpg">
+                    <div class="layer">
+                        <h3>Content Creator</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="https://www.pinterest.com/" target="_blank">
+                    <img src="img/w5.jpg">
+                    <div class="layer">
+                        <h3>IT</h3>
+                        <h5>Popup</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h3>Listen my product here,</h3>
+            <a href="https://www.youtube.com/@lofi9260" target="_blank">
+                <h3 class="ytb">or watch on my Youtube channel.</h3>
+            </a>
+        </div>
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oaIJNOqY1oQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </section>
 
     <!--------service---->
     <section class="service" id="service">
@@ -409,7 +595,7 @@
         <div class="service-content">
             <div class="row">
                 <div class="s s-one">
-                    <img src="anh4.jfif">
+                    <img src="img/anh4.jfif">
                 </div>
                 <h3>Web Developer</h3>
                 <h5>Starts From <span>$99</span></h5>
@@ -420,28 +606,32 @@
 
             <div class="row">
                 <div class="s s-tow">
-                    <img src="anh5.jpg">
+                    <img src="img/anh5.jpg">
                 </div>
                 <h3>Web Design</h3>
                 <h5>Starts From <span>$99</span></h5>
-                <p>Shoes on, get up in the morn. Cup of milk, let's rock and roll. King Kong, kick the drum, rolling on like a Rolling Stone. Sing song when I'm walking home. Jump up to the top, LeBron. Ding dong, call me on my phone. Ice tea and a game of ping pong, huh</p>
+                <p>Shoes on, get up in the morn. Cup of milk, let's rock and roll. King Kong, kick the drum, rolling on
+                    like a Rolling Stone. Sing song when I'm walking home. Jump up to the top, LeBron. Ding dong, call
+                    me on my phone. Ice tea and a game of ping pong, huh</p>
             </div>
 
             <div class="row">
                 <div class="s s-three">
-                    <img src="m1.jpg">
+                    <img src="img/m1.jpg">
                 </div>
-                <h3>Web Design</h3>
+                <h3>Graphic Design</h3>
                 <h5>Starts From <span>$99</span></h5>
-                <p>This is getting heavy. Can you hear the bass boom? I'm ready (woo hoo). Life is sweet as honey. Yeah, this beat cha-ching like money, huh. Disco overload, I'm into that, I'm good to go. I'm diamond, you know I glow up
+                <p>This is getting heavy. Can you hear the bass boom? I'm ready (woo hoo). Life is sweet as honey. Yeah,
+                    this beat cha-ching like money, huh. Disco overload, I'm into that, I'm good to go. I'm diamond, you
+                    know I glow up
                     Hey, so let's go</p>
             </div>
 
             <div class="row">
                 <div class="s s-four">
-                    <img src="anh6.jpg">
+                    <img src="img/anh6.jpg">
                 </div>
-                <h3>Web Design</h3>
+                <h3>Content Creator</h3>
                 <h5>Starts From <span>$99</span></h5>
                 <p>'Cause I-I-I'm in the stars tonight
                     So watch me bring the fire and set the night alight (hey)
@@ -489,7 +679,7 @@
                 <div class="feedback__content">
                     <div class="feedback__data">
                         <div class="feedback__header">
-                            <img src="kh1.jpg" alt="" class="feedback__img">
+                            <img src="img/kh1.jpg" alt="Jungkook" class="feedback__img">
 
                             <div>
                                 <h3 class="feedback__name">Jungkookie</h3>
@@ -512,7 +702,7 @@
                 <div class="feedback__content">
                     <div class="feedback__data">
                         <div class="feedback__header">
-                            <img src="kh2.jpg" alt="" class="feedback__img">
+                            <img src="img/kh2.jpg" alt="" class="feedback__img">
 
                             <div>
                                 <h3 class="feedback__name">Kim Tae Ri</h3>
@@ -535,7 +725,7 @@
                 <div class="feedback__content">
                     <div class="feedback__data">
                         <div class="feedback__header">
-                            <img src="kh3.jpg" alt="" class="feedback__img">
+                            <img src="img/kh3.jpg" alt="" class="feedback__img">
 
                             <div>
                                 <h3 class="feedback__name">Park Jimin</h3>
@@ -595,33 +785,36 @@
             </div>
 
             <!-- ========Form====== -->
-            <form class="contact__form grid" action="https://formsubmit.co/62bad6660ef097a441603d417de2befa" method="POST">
+            <form class="contact__form grid" action="https://formsubmit.co/62bad6660ef097a441603d417de2befa"
+                method="POST"><input type="hidden" name="_captcha" value="false">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input" placeholder="Tran Thi My" required>
+                        <input type="text" class="contact__input" name="Name" placeholder="Tran Thi My" required/>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input" placeholder="example@gmail.com" required>
+                        <input type="email" class="contact__input" name="Email" placeholder="example@gmail.com"
+                            required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                 </div>
                 <div class="contact__content">
                     <label for="" class="contact__label">Project</label>
-                    <input type="text" class="contact__input" placeholder="Build website" required>
+                    <input type="text" class="contact__input" name="Project" placeholder="Build website" required/>
                 </div>
 
                 <div class="contact__content">
                     <label for="" class="contact__label">Message</label>
-                    <textarea name="" id="" cols="0" rows="7" class="contact__input"
-                        placeholder="난 너는 초아해 from Tran Thi My - 520107024 - Multimedia class" required></textarea>
+                    <textarea id="" cols="0" rows="7" class="contact__input" name="Message"
+                        placeholder="난 너는 초아해 from Tran Thi My - 520107024 - Multimedia class" required/></textarea>
                 </div>
 
                 <div>
-                    <button class="button" type="submit" target="_blank">Send Message
+                    <button class="button" type="submit">Send Message
                         <i class="uil uil-message button__icon"></i></button>
+                      
                 </div>
         </div>
 
@@ -647,24 +840,13 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
-                    </h6>
-                    <p>
-                        <a href="#home" class="text-reset">Home</a>
-                    </p>
-                    <p>
-                        <a href="#about" class="text-reset">About</a>
-                    </p>
-                    <p>
-                        <a href="#portfolio" class="text-reset">Portfolio</a>
-                    </p>
-                    <p>
-                        <a href="#skills" class="text-reset">Skills</a>
-                    </p>
-                    <p>
-                        <a href="#service" class="text-reset">Services</a>
-                    </p>
+                    <h6 class="text-uppercase fw-bold mb-4"> Quick links</h6>
+                    <p><a href="#home" class="text-reset">Home</a></p>
+                    <p><a href="#about" class="text-reset">About</a></p>
+                    <p><a href="#qualification" class="text-reset">Qualification</a></p>
+                    <p><a href="#skills" class="text-reset">Skills</a></p>
+                    <p><a href="#portfolio" class="text-reset">Portfolio</a></p>
+                    <p><a href="#service" class="text-reset">Services</a></p>
                 </div>
                 <!-- Grid column -->
 
@@ -684,7 +866,6 @@
             </div>
 
         </section>
-        <!-- Section: Links  -->
 
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
@@ -694,10 +875,10 @@
         <!-- Copyright -->
     </footer>
 
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
     <!--------Link js---->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+    </script>
     <script type="text/javascript" src="java.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
